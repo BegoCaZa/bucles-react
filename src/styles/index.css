@@ -34,16 +34,21 @@ body {
   margin: 0;
   font-family: 'Hanken Grotesk', sans-serif;
   background-color: aliceblue;
+}
+
+.general-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  body {
+  .general-container {
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    width: 736px;
   }
 }

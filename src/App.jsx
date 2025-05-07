@@ -3,10 +3,10 @@ import SummaryCard from './components/summaryCard/SummaryCard';
 
 const App = () => {
   return (
-    <>
+    <div className='general-container'>
       <ResultsCard />
       <SummaryCard />
-    </>
+    </div>
   );
 };
 
