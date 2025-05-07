@@ -1,8 +1,8 @@
-:root{
-  --color-red:#FF5555;
-  --color-yellow: #FFB21E;
-  --color-green:#00BB8F;
-  --color-blue:#1125D6;
+:root {
+  --color-red: #ff5555;
+  --color-yellow: #ffb21e;
+  --color-green: #00bb8f;
+  --color-blue: #1125d6;
 }
 *,
 *::after,
@@ -32,8 +32,18 @@ nav ul {
 
 body {
   margin: 0;
-  font-family: "Hanken Grotesk", sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   background-color: aliceblue;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }

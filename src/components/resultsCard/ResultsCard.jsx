@@ -1,15 +1,18 @@
+import styles from './resultsCard.module.css';
 const ResultsCard = () => {
   return (
-    <div className='results-container'>
-      <p className='subtitle'>Your Results</p>
-      <div className='numbers-container'>
-        <p className='number-title'>76</p>
-        <p className='subtitle'>of 100</p>
+    <div className={styles.container}>
+      <p className={styles.subtitle}>Your Results</p>
+      <div className={styles['score-container']}>
+        <p className={styles.score}>76</p>
+        <p className={styles.subtitle}>of 100</p>
       </div>
-      <p className='title'>Great</p>
-      <p className='subtitle'>
-        Your performance exceed 65% of the people conducting the test here!
-      </p>
+      <div className={styles.summaryContainer}>
+        <p className={styles.title}>Great</p>
+        <p className={styles.subtitle}>
+          Your performance exceed 65% of the people conducting the test here!
+        </p>
+      </div>
     </div>
   );
 };

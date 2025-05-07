@@ -5,10 +5,14 @@ const SummaryElement = ({ src, title, score, total, color }) => {
   const textClass = `${styles.title} ${styles['color-' + color]}`;
   return (
     <div className={elementClass}>
-      <img src={src} className={styles.image} />
-      <span className={textClass}>{title}</span>
-      <span className={styles.score}>{score}</span>
-      <span className={styles.total}>{total}</span>
+      <div className={styles.icon}>
+        <img src={src} className={styles.image} />
+        <span className={textClass}>{title}</span>
+      </div>
+      <div className={styles.numbers}>
+        <span className={styles.score}>{score}</span>
+        <span className={styles.total}>{total}</span>
+      </div>
     </div>
   );
 };

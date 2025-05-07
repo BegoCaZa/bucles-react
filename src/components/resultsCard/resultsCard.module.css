@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: linear-gradient(180deg, #7755ff, #2f2ce9);
+  border-radius: 0 0px 40px 40px;
+  color: aliceblue;
+  text-align: center;
+  gap: 24px;
+  padding: 40px 0;
+}
+
+.summaryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+.subtitle {
+  max-width: 280px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  color: #cac9ff;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+
+  background-image: linear-gradient(180deg, #4d21c9, #2421c938);
+}
+
+.score {
+  font-size: 56px;
+  margin: 0;
+  font-weight: 900;
+  line-height: 1;
+}
