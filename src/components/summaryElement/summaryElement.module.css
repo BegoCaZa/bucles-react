@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    width: 315px;
+    border-radius: 10px;
+}
+
+.red{
+    background-color: #ff555549;
+}
+
+.yellow{
+    background-color: #ffb01e56;
+}
+
+.green{
+    background-color: #00bb8f63;
+}
+.blue{
+    background-color: #1125d65e ;
+}
+.color-red{
+    color:var(--color-red);
+}
+.title{
+    font-weight: 400;
+}
+
+

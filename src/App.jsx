@@ -1,9 +1,11 @@
-import Button from './components/button/Button';
+import ResultsCard from './components/resultsCard/ResultsCard';
+import SummaryCard from './components/summaryCard/SummaryCard';
 
 const App = () => {
   return (
     <>
-      <h1>React</h1> <Button />
+      <ResultsCard />
+      <SummaryCard />
     </>
   );
 };
