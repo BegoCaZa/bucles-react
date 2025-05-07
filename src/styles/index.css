@@ -43,13 +43,18 @@ body {
   align-items: center;
   width: 100%;
   background-color: white;
+  gap: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .general-container {
+    margin-top: 50px;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
+    width: 734px;
     margin-inline: auto;
+    border-radius: 40px;
+    row-gap: 0;
   }
 }

@@ -5,14 +5,14 @@
   align-content: center;
   width: 85%;
   gap: 1.5rem;
-  margin-top: 1.5rem;
+
   margin-bottom: 1.5rem;
 }
 @media screen and (min-width: 768px) {
   .container {
     margin: 0;
-    padding: 20px;
-    width: 288px;
+    padding: 0 25px 0 10px;
+    width: 50%;
   }
 }
 
@@ -23,6 +23,11 @@
   text-align: left;
   color: #303b59;
 }
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 1.75rem;
+  }
+}
 .elements {
   display: flex;
   flex-direction: column;
@@ -30,4 +35,11 @@
   align-items: center;
   gap: 1rem;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .elements {
+    margin: 0;
+    /* padding: 20px; */
+  }
 }

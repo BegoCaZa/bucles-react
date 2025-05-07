@@ -2,7 +2,7 @@ import styles from './resultsCard.module.css';
 const ResultsCard = () => {
   return (
     <div className={styles.container}>
-      <p className={styles.subtitle}>Your Results</p>
+      <p className={styles.subheader}>Your Results</p>
       <div className={styles['score-container']}>
         <p className={styles.score}>76</p>
         <p className={styles.subtitle}>of 100</p>
