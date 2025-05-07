@@ -12,6 +12,14 @@
   padding: 40px 0;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    width: 368px;
+    padding: 40px;
+    border-radius: 40px;
+  }
+}
+
 .summaryContainer {
   display: flex;
   flex-direction: column;
